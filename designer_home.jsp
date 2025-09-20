@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Fashion Design</title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/slick.css"/>
+
+        <link href="css/tooplate-little-fashion.css" rel="stylesheet">
+<!--
+
+Tooplate 2127 Little Fashion
+
+https://www.tooplate.com/view/2127-little-fashion
+
+-->
+<script type="text/javascript">
+    function preventBack() {
+        window.history.forward(); 
+    }
+    
+    setTimeout("preventBack()", 0);
+    
+    window.onunload = function () { null };
+</script>
+    </head>
+    
+    <body>
+
+        <section class="preloader">
+            <div class="spinner">
+                <span class="sk-inner-circle"></span>
+            </div>
+        </section>
+    
+        <main>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="designer_home.jsp">
+                        <strong><span>Fashion</span>    Design </strong>
+                    </a>
+
+                    <div class="d-lg-none">
+                        <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+                        <a href="product-detail.html" class="bi-bag custom-icon"></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="designer_home.jsp">Home</a>
+                            </li>
+                         
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="viewuser.jsp">Customers</a>
+                            </li>
+
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" href="productdetails.html">Add Products</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="viewproduct.jsp">Products</a>
+                            </li>-->
+                                                          
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Products
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="productdetails.html">Add Products</a></li>
+                                    <li><a class="dropdown-item" href="viewproduct.jsp">View Products</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="designerviewcart.jsp">Orders</a>
+                            </li>
+
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" href="viewstore.jsp">Store</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="viewbilling.jsp">Billings</a>
+                            </li> -->
+                        
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" href="viewrating.jsp">Ratings</a>
+                            </li> -->
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="userlogin.html">Logout</a>
+                            </li>
+                        
+                        
+                        </ul>
+
+
+                       
+                        <!-- <div class="d-none d-lg-block">
+                            <a href="" class="bi-person custom-icon me-3"></a>
+
+                       </div> -->
+                    </div>
+                </div>
+            </nav>
+
+            <section class="slick-slideshow">   
+                <div class="slick-custom">
+                    <img src="images/slideshow/retail-shop-owner-mask-social-distancing-shopping.jpg" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">Cool Fashion</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">Where women's style meets innovation and elegance.</p>
+
+                                    <!-- <a href="about.html" class="btn custom-btn">Learn more about us</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-custom">
+                    <img src="images/slideshow/medium-shot-business-women-high-five.jpeg" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">New Design</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">Revolutionizing women’s fashion with innovation and grace.</p>
+
+                                    <!-- <a href="product.html" class="btn custom-btn">Explore products</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--<div class="slick-custom">
+                    <img src="images/slideshow/two-business-partners-working-together-office-computer.jpeg" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">Talk to us</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">Tooplate is one of the best HTML CSS template websites for everyone.</p>
+
+                                     <a href="contact.html" class="btn custom-btn">Work with us</a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+            </section>
+
+            <!--  -->
+
+        <!-- -->
+
+            <section class="featured-product section-padding">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-12 text-center">
+                            <h2 class="mb-5">Our Designs</h2>
+                        </div>
+
+                        <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                              
+                                    <img src="images/product/tops.jpg" class="img-fluid product-image" alt="">
+                                
+
+                            
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                               
+                                    <img src="images/product/frocks.jpg" class="img-fluid product-image" alt="">
+                               
+
+                              
+
+                                <div class="product-info d-flex">
+                                   
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12">
+                            <div class="product-thumb">
+                                
+                                    <img src="images/product/closet.jpg" class="img-fluid product-image" alt="">
+                              
+
+                             
+                                <div class="product-info d-flex">                                    
+
+                                  
+                                </div>
+                            </div>
+                        </div>
+
+                     
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer class="site-footer">
+    <h5 class="site-footer h5">Copyright &copy; 2025 Fashion Design.</h5>
+</footer>
+<!-- 
+        <%-- <footer class="site-footer">
+
+            <h5 class="site-footer h5">Copyright © 2025 Fashion Design</h5>
+             <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-10 me-auto mb-4">
+                        <h4 class="text-white mb-3"><a href="index.html">Little</a> Fashion</h4>
+                        <p class="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2022 <strong>Little Fashion</strong></p>
+                        <br>
+                        <p class="copyright-text">Designed by <a href="https://www.tooplate.com/" target="_blank">Tooplate</a></p>
+                    </div>
+
+
+
+                </div>
+            </div> 
+        </footer>
+ --%> -->
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/Headroom.js"></script>
+        <script src="js/jQuery.headroom.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+   
+</html>
